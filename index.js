@@ -9,4 +9,4 @@ app.use(express.json({extended:true}));
 app.use('/',routes);
 const PORT = process.env.PORT|| 8000;
 connection();
-app.listen(port,()=>console.log(`Server is started on port ${port}`));
+app.listen(PORT,()=>console.log(`Server is started on port ${PORT}`));
